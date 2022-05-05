@@ -11,10 +11,9 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
     <script type="text/javascript" src="./main.js"></script>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
-      <fieldset>
+      <fieldset class="form-fieldset">
         <legend>Personal information</legend>
         
         <label class="form-field">
@@ -50,7 +49,8 @@
           Full date of birth:
           <input
             type="date" 
-            name="date of birth">
+            name="date of birth"
+          >
         </label>
 
         <label class="form-field">
@@ -59,7 +59,7 @@
         </label>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="form-fieldset">
         <legend>Registration</legend>
 
         <label class="form-field">
@@ -84,7 +84,7 @@
         </label>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="form-fieldset">
         <legend>An interesting fact about you!</legend>
 
         <div class="form-field">
@@ -138,7 +138,7 @@
         </label>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="form-fieldset">
         <legend>Additional info:</legend>
 
         <label class="form-field">
@@ -156,7 +156,6 @@
       </fieldset>
 
       <button type="submit">Submit</button>
-
     </form>
   </body>
 </html>
